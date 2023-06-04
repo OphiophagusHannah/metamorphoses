@@ -152,6 +152,9 @@ figure {
 .slide--about .about-description {
   white-space: normal;
   color: #000;
+  line-height: 1.4;
+  display: block;
+  margin-bottom: 0.5rem;
 }
 .slide--about .slide__inner {
   padding-left: 0;
@@ -257,6 +260,10 @@ img {
   margin-top: auto;
   margin-bottom: 0;
   color: rgb(213, 62, 16);
+  white-space: normal;
+  padding-right: 1rem;
+  line-height: 1.4;
+  display: block;
 }
 
 .footer-slide {
@@ -264,13 +271,35 @@ img {
   background: linear-gradient(90deg, rgb(224, 221, 209) 20%, rgb(42, 42, 42) 20%);
   height: 100vh;
   width: 95vw;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   display: absolute;
   top: 0;
   left: 0;
   z-index: 10;
 }
 .footer-slide .footer-slide-inner {
-  padding-left: calc(20% + 10rem);
+  width: 60%;
+  white-space: normal;
+  padding-left: calc(20% + 3rem);
+  color: rgb(224, 221, 209);
+  line-height: 1.4;
+}
+.footer-slide .footer-slide-inner div {
+  line-height: 1.4;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.footer-slide .footer-slide-inner a {
+  color: rgb(213, 62, 16);
+  text-decoration: none;
+  display: block;
+  margin-top: 1.5rem;
+}
+.footer-slide .footer-slide-inner a:hover {
+  text-decoration: underline;
 }
 
 #start {

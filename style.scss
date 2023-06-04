@@ -169,6 +169,10 @@ figure {
   .about-description {
     white-space: normal;
     color: #000;
+
+    line-height: 1.4;
+    display: block;
+    margin-bottom: 0.5rem;
   }
 
   .slide__inner {
@@ -281,6 +285,10 @@ img {
   margin-top: auto;
   margin-bottom: 0;
   color: rgb(213, 62, 16);
+  white-space: normal;
+  padding-right: 1rem;
+  line-height: 1.4;
+  display: block;
 }
 
 .footer-slide {
@@ -288,12 +296,34 @@ img {
   background: linear-gradient(90deg, rgba(224, 221, 209, 1) 20%, rgba(42, 42, 42, 1) 20%);
   height: 100vh;
   width: 95vw;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   display: absolute;
   top: 0;
   left: 0;
   z-index: 10;
   .footer-slide-inner {
-    padding-left: calc(20% + 10rem);
+    width: 60%;
+    white-space: normal;
+    padding-left: calc(20% + 3rem);
+    color: rgba(224, 221, 209, 1);
+    line-height: 1.4;
+    div {
+      line-height: 1.4;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    a {
+      color: rgb(213, 62, 16);
+      text-decoration: none;
+      display: block;
+      margin-top: 1.5rem;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }
 
