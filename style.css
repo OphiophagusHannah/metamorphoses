@@ -67,40 +67,6 @@ figure {
   transition: 1s;
 }
 
-.menu-btn {
-  position: fixed;
-  top: 2vw;
-  right: 2vw;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  z-index: 3;
-}
-.menu-btn__circles {
-  position: relative;
-  height: 0.45vw;
-  width: 0.45vw;
-  margin-right: 0.75vw;
-}
-.menu-btn__circle {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  border-radius: 50%;
-}
-.menu-btn__circle--top {
-  visiblity: hidden;
-  opacity: 0;
-}
-.menu-btn__text {
-  color: #000;
-  font-size: 1vw;
-}
-
 .slide {
   display: flex;
   height: auto;
@@ -189,6 +155,8 @@ figure {
 }
 .slide--about .slide__inner {
   padding-left: 0;
+  display: flex;
+  flex-direction: column;
 }
 .slide--about .slide__sub-title {
   left: 0;
@@ -282,14 +250,20 @@ img {
 }
 
 .last-slide {
-  padding-right: 10rem;
+  padding-right: 5rem;
+}
+
+.note {
+  margin-top: auto;
+  margin-bottom: 0;
+  color: rgb(213, 62, 16);
 }
 
 .footer-slide {
   background: rgb(42, 42, 42);
-  background: linear-gradient(90deg, rgb(232, 229, 219) 20%, rgb(42, 42, 42) 20%);
+  background: linear-gradient(90deg, rgb(224, 221, 209) 20%, rgb(42, 42, 42) 20%);
   height: 100vh;
-  width: 100vw;
+  width: 95vw;
   display: absolute;
   top: 0;
   left: 0;
