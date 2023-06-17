@@ -202,9 +202,9 @@
             $('.home').removeClass('visible');
         }
 
-        if ($(window).scrollTop() + $(window).height() == $(document).height()) {
-            alert("bottom!");
-        }
+        // if ($(window).scrollTop() + $(window).height() == $(document).height()) {
+        //     alert("bottom!");
+        // }
     });
 
 
